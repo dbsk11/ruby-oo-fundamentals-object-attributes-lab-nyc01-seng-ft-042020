@@ -1,6 +1,12 @@
 require 'pry'
 
 class Person
+    #the initilize method would fail the tests
+    # def initialize(name, job)
+    #     @name = name
+    #     @job = job
+    # end
+
     def name
         @name
     end
