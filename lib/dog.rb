@@ -1,7 +1,7 @@
 require 'pry'
 
 class Dog
-    def initilize(name, breed)
+    def initilize(name=nil, breed=nil)
         @name = name
         @breed = breed
     end
